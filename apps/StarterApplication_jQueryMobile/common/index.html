@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<!--  
+    COPYRIGHT LICENSE: This information contains sample code provided in source code form. You may copy, modify, and distribute
+    these sample programs in any form without payment to IBM® for the purposes of developing, using, marketing or distributing
+    application programs conforming to the application programming interface for the operating platform for which the sample code is written.
+    Notwithstanding anything to the contrary, IBM PROVIDES THE SAMPLE SOURCE CODE ON AN "AS IS" BASIS AND IBM DISCLAIMS ALL WARRANTIES,
+    EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY,
+    FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM SHALL NOT BE LIABLE FOR ANY DIRECT,
+    INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE.
+    IBM HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE SAMPLE SOURCE CODE.
+  
+ -->
+
+<html>
+   	<head>
+   		<meta charset="UTF-8">
+   		<title>Starter Application for jQuery Mobile</title>
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+   		<!--
+    		<link rel="shortcut icon" href="images/favicon.png">
+    		<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    	-->
+   		<link href="jqueryMobile/jquery.mobile-1.4.2.css" rel="stylesheet">
+   		<link rel="stylesheet" href="css/main.css">
+   		<script>window.$ = window.jQuery = WLJQ;</script>
+   		<script src="jqueryMobile/jquery.mobile-1.4.2.js"></script>
+   	</head>
+   	<body style="display: none;">
+   		<div data-role="page" id="FeedsListPage">
+   			<div id="PageHeader" data-role="header" data-position="fixed" data-theme="a">
+   				<h3>Starter Application</h3>
+   				<a id="ReloadLink" href="#" data-icon="refresh" class="ui-btn-right">Reload</a>
+			</div>
+   			<div id="pageContent" data-role="content">
+   				<ul id="FeedsList" data-role="listview" data-inset="true"></ul>															
+			</div>
+			<div id="PageFooter" data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#" data-icon="grid" id="loadFeedsPage" onclick="loadFeedsPage();">Feeds</a></li>
+    					<li><a href="#" data-icon="info" id="loadAboutPage" onclick="loadAboutPage();">About</a></li>
+   					</ul>
+				</div>
+			</div>
+   		</div>	
+   		
+		<script src="js/initOptions.js"></script>
+   		<script src="js/main.js"></script>
+   		<script src="js/messages.js"></script>
+   	</body>
+</html>

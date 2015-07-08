@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="StarterApplication_jQueryMobile">
+        <wb-resource deploy-path="/" source-path="/apps/WorklightStarter_jQueryMobile/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/WorklightStarter_jQueryMobile/android"/>
+        <wb-resource deploy-path="/" source-path="/apps/WorklightStarter_jQueryMobile/iphone"/>
+        <wb-resource deploy-path="/" source-path="/server/java"/>
+        <property name="context-root" value="StarterApplication_jQueryMobile"/>
+    </wb-module>
+</project-modules>
