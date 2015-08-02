@@ -58,4 +58,4 @@ derby.log
 
 .jazzignore
 /pom.xml
-/StarterApplication_jQueryMobile_2015_08_02_135958.backup.zip
+/*.backup.zip
